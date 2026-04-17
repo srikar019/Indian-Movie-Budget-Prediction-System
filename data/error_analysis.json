@@ -1,0 +1,41 @@
+{
+  "overall": {
+    "mean_error": 8.85,
+    "std_error": 72.98,
+    "median_abs_error": 4.3,
+    "p90_abs_error": 8.5,
+    "p95_abs_error": 9.86
+  },
+  "by_budget_range": {
+    "\u20b90-20 Cr": {
+      "count": 198,
+      "MAE": 3.15,
+      "MAPE": 25.57
+    },
+    "\u20b920-50 Cr": {
+      "count": 316,
+      "MAE": 5.66,
+      "MAPE": 21.32
+    },
+    "\u20b950-100 Cr": {
+      "count": 19,
+      "MAE": 9.57,
+      "MAPE": 17.47
+    },
+    "\u20b9100-200 Cr": {
+      "count": 18,
+      "MAE": 6.21,
+      "MAPE": 4.08
+    },
+    "\u20b9200-500 Cr": {
+      "count": 18,
+      "MAE": 28.93,
+      "MAPE": 8.53
+    },
+    "\u20b9500-5000 Cr": {
+      "count": 3,
+      "MAE": 834.52,
+      "MAPE": 57.98
+    }
+  }
+}

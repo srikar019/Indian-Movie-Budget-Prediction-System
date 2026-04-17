@@ -1,0 +1,156 @@
+{
+  "insights": [
+    "Budget distribution is right-skewed (most films are low-budget with a few big outliers)",
+    "93% of movies have budgets under \u20b950 Cr, only 1% exceed \u20b9200 Cr",
+    "Adventure films have 5.2\u00d7 higher average budgets than Music films",
+    "Genre significantly affects budget (Kruskal-Wallis p < 0.05)",
+    "Top 10 actors increase average budget by \u20b976.4 Cr compared to other actors",
+    "Director hit rate correlates with budget (Spearman \u03c1 = 0.369, p = 0.0000)",
+    "Top 5 production houses have 6.6\u00d7 higher average budgets (\u20b9145 Cr vs \u20b922 Cr)",
+    "Average budget increases by \u20b90.79 Cr per year (R\u00b2 = 0.196)",
+    "Post-2010 average budget (\u20b945 Cr) is 5.8\u00d7 higher than pre-2010 (\u20b98 Cr)",
+    "Strongest budget predictor: 'log_budget' (Spearman \u03c1 = +1.0000)"
+  ],
+  "statistics": {
+    "budget_distribution": {
+      "mean": 23.53,
+      "median": 12.5,
+      "std": 58.22,
+      "skewness": 14.873,
+      "kurtosis": 365.566,
+      "normality_test": "Shapiro-Wilk",
+      "normality_p_value": 4.181168348761835e-82,
+      "is_normal": "False",
+      "low_budget_pct": 93.4,
+      "high_budget_pct": 1.3
+    },
+    "genre_budget_test": {
+      "test": "Kruskal-Wallis",
+      "statistic": 278.2971,
+      "p_value": 3.9001378373776554e-51,
+      "significant": "True"
+    },
+    "correlations": [
+      {
+        "Feature": "log_budget",
+        "Correlation": 1.0,
+        "p_value": 0.0,
+        "Significant": true
+      },
+      {
+        "Feature": "box_office_crores",
+        "Correlation": 0.7412,
+        "p_value": 0.0,
+        "Significant": true
+      },
+      {
+        "Feature": "year",
+        "Correlation": 0.6834,
+        "p_value": 0.0,
+        "Significant": true
+      },
+      {
+        "Feature": "years_since_2000",
+        "Correlation": 0.6834,
+        "p_value": 0.0,
+        "Significant": true
+      },
+      {
+        "Feature": "cpi_index",
+        "Correlation": 0.6821,
+        "p_value": 0.0,
+        "Significant": true
+      },
+      {
+        "Feature": "decade",
+        "Correlation": 0.6656,
+        "p_value": 0.0,
+        "Significant": true
+      },
+      {
+        "Feature": "market_maturity",
+        "Correlation": 0.6529,
+        "p_value": 0.0,
+        "Significant": true
+      },
+      {
+        "Feature": "growth_x_star",
+        "Correlation": 0.6454,
+        "p_value": 0.0,
+        "Significant": true
+      },
+      {
+        "Feature": "industry_growth_factor",
+        "Correlation": 0.6358,
+        "p_value": 0.0,
+        "Significant": true
+      },
+      {
+        "Feature": "language_market_factor",
+        "Correlation": 0.5966,
+        "p_value": 0.0,
+        "Significant": true
+      },
+      {
+        "Feature": "industry_budget_tier",
+        "Correlation": 0.5966,
+        "p_value": 0.0,
+        "Significant": true
+      },
+      {
+        "Feature": "num_screens",
+        "Correlation": 0.5945,
+        "p_value": 0.0,
+        "Significant": true
+      },
+      {
+        "Feature": "production_scale",
+        "Correlation": 0.5589,
+        "p_value": 4.71830959754e-312,
+        "Significant": true
+      },
+      {
+        "Feature": "hype_x_market",
+        "Correlation": 0.4727,
+        "p_value": 1.970923297369218e-211,
+        "Significant": true
+      },
+      {
+        "Feature": "profit_loss_crores",
+        "Correlation": -0.4392,
+        "p_value": 1.6270228258777283e-179,
+        "Significant": true
+      },
+      {
+        "Feature": "vfx_level",
+        "Correlation": 0.4297,
+        "p_value": 4.812030399305917e-171,
+        "Significant": true
+      },
+      {
+        "Feature": "vfx_x_screens",
+        "Correlation": 0.4297,
+        "p_value": 4.383103440456896e-171,
+        "Significant": true
+      },
+      {
+        "Feature": "production_x_genre",
+        "Correlation": 0.3898,
+        "p_value": 1.657674183012019e-138,
+        "Significant": true
+      },
+      {
+        "Feature": "budget_2024_crores",
+        "Correlation": 0.2338,
+        "p_value": 1.8118039026315055e-48,
+        "Significant": true
+      },
+      {
+        "Feature": "genre_complexity_index",
+        "Correlation": 0.2243,
+        "p_value": 1.1549577798915553e-44,
+        "Significant": true
+      }
+    ]
+  }
+}
